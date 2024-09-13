@@ -4,7 +4,7 @@ title:  "How to change process name"
 date:   2024-09-13 16:00:00 +0800
 categories: security
 ---
-基于prctl的系统调用修改在/proc/<PID>/status中的进程名称，实现进程名称的伪装。
+基于prctl的系统调用修改在/proc/pid/status中的进程名称，实现进程名称的伪装。
 
 下面是Go程序实例:
 
