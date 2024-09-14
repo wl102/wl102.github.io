@@ -2,7 +2,7 @@
 layout: post
 title: "gracefully exit in Go"
 date:   2024-09-14 15:00:00 +0800
-categories: Linux
+categories: linux
 ---
 
 本文给出了如何优雅处理Go程序退出的例子（仅供参考）
