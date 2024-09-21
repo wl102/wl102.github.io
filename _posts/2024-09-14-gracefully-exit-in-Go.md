@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "gracefully exit in Go"
+title: "Gracefully exit in Go"
 date:   2024-09-14 15:00:00 +0800
 categories: linux
 ---

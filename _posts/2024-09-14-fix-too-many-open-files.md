@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "socket: too many open files"
+title: "Socket: too many open files"
 date:   2024-09-14 10:00:00 +0800
 categories: linux
 ---
