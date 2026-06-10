@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wl102</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <a href="https://github.com/wl102" target="_blank" rel="noopener" class="logo">wl102</a>
+            <nav class="nav">
+                <a href="#about">关于</a>
+                <a href="#projects">项目</a>
+                <a href="#contact">联系</a>
+            </nav>
+        </header>
+
+        <!-- Hero -->
+        <section class="hero">
+            <div class="hero-avatar">
+                <img id="avatar" src="https://github.com/wl102.png" alt="wl102" loading="eager">
+            </div>
+            <h1 class="hero-name">wl102</h1>
+            <p class="hero-bio" id="bio">开发者 / 开源爱好者</p>
+            <div class="hero-links">
+                <a href="https://github.com/wl102" target="_blank" rel="noopener" class="btn btn-primary">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                    GitHub
+                </a>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="section">
+            <h2 class="section-title">关于</h2>
+            <p class="section-text">
+                热爱编程与开源，专注于构建简洁、实用的工具与项目。
+                在这里分享我的技术探索与创造。
+            </p>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="section">
+            <h2 class="section-title">项目</h2>
+            <div class="projects-grid" id="projects-grid">
+                <div class="project-skeleton">加载中...</div>
+            </div>
+        </section>
+
+        <!-- Stats -->
+        <section class="section">
+            <h2 class="section-title">数据</h2>
+            <div class="stats" id="stats">
+                <div class="stat-item">
+                    <span class="stat-number" id="repo-count">—</span>
+                    <span class="stat-label">公开仓库</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="star-count">—</span>
+                    <span class="stat-label">获得星标</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer id="contact" class="footer">
+            <p>wl102 © <span id="year"></span></p>
+            <p class="footer-made">用 ❤ 构建</p>
+        </footer>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
